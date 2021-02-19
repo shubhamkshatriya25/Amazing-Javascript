@@ -15,7 +15,7 @@ const renderCountry = function (data, className = '') {
       ).toFixed(1)} people</p>
       <p class="country__row"><span>🗣️</span>${data.languages[0].name}</p>
       <p class="country__row"><span>💰</span>${data.currencies[0].name}</p>
-    </div>
+    </div> 
   </article>
   `;
   countriesContainer.insertAdjacentHTML('beforeend', html);
